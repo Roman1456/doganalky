@@ -28,7 +28,10 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
     if roma.hitbox.colliderect(sofia.hitbox):
-        print("Програв")
+        print("Виграв")
+
+
+
 
     sofia.move1()
     roma.move()

@@ -24,7 +24,7 @@ class Pogonec:
             self.hitbox.y += self.speed
 
         if keys[pygame.K_LEFT]:
-            self.hitbox.x += self.speed
+            self.hitbox.x -= self.speed
 
         if keys[pygame.K_RIGHT]:
-            self.hitbox.x -= self.speed
+            self.hitbox.x += self.speed
